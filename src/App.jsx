@@ -1,14 +1,20 @@
 import React, { useState } from 'react'
-import Navbar from './components/Navbar'  
+import Navbar from './components/Navbar' 
+import Hero from './components/Hero' 
+import TrustedBy from './components/TrustedBY'
+import Services from './components/Services'  
 
 const App = () => {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')
 
   return (
-    <div className='dark:bg-black relative'>
+    <div className='dark:bg-black relative'>    
       <Navbar theme={theme} setTheme={setTheme} />
-      app
-    </div>
+      <Hero />
+      <TrustedBy />
+      <Services />
+        
+          </div>
   )
 }
 
