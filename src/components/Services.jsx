@@ -8,17 +8,17 @@ const Services = () => {
     const servicesData=[
         {
             title:'Advertising',
-            description:'Leverage targeted advertising campaigns to reach your ideal audience and maximize ROI.',
+            description:'We turn bold ideas into powerful digital solutions that connect, engage...',
             icon: assets.ads_icon
         },
         {
             title:'Social Media',
-            description:'Boost your brand presence and engage with your audience through strategic social media management.',
+            description:'We help you build a strong social media presence and engage with your audience..',
             icon: assets.social_icon,
         },
         {
             title:'Content marketing',
-            description:'We help you create and distribute valuable, relevant, and consistent content to attract and retain a clearly defined audience.',
+            description:'We help you create and distribute consistent content to attract a clearly defined audience.',
             icon: assets.marketing_icon
         },
         {
