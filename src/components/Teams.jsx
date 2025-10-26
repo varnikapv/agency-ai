@@ -15,8 +15,8 @@ const Teams = () => {
         shadow-gray-100 dark:shadow-white/5 hover:scale-103 transition-all duration-400'>
             <img src={team.image} className='w-12 h-12 rounded-full'/>
             <div>
-                <h3>{team.name}</h3>
-                <p>{team.title}</p>
+                <h3 className='font-bold text-sm'>{team.name}</h3>
+                <p className='text-xs opacity-60'>{team.title}</p>
  </div>
         </div>
     ))}
